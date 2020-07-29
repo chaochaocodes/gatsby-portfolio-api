@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_project_technology_technologies",
+  "info": {
+    "name": "Technology",
+    "icon": "laptop-code"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
