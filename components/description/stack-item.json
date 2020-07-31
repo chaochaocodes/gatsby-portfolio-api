@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_description_job_descriptions",
+  "collectionName": "components_description_stack_items",
   "info": {
-    "name": "job_description",
-    "icon": "address-card"
+    "name": "stack_item",
+    "icon": "code"
   },
   "options": {},
   "attributes": {
