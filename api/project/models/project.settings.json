@@ -17,10 +17,35 @@
       "type": "text",
       "required": true
     },
-    "technology": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "github": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    },
+    "stack": {
       "type": "component",
       "repeatable": true,
-      "component": "project-technology.technology"
+      "component": "description.stack-item",
+      "required": true
     }
   }
 }
