@@ -1,0 +1,8 @@
+{
+    "provider": "cloudinary",
+    "providerOptions": {
+      "cloud_name": "chaoscodes",
+      "api_key": "212714686795541",
+      "api_secret": "pICBiwRf0z-mgrBY4FjTdgPyaDg"
+    }
+  }
