@@ -34,7 +34,7 @@
     },
     "url": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "featured": {
       "type": "boolean",
@@ -46,6 +46,9 @@
       "repeatable": true,
       "component": "description.stack-item",
       "required": true
+    },
+    "demo": {
+      "type": "string"
     }
   }
 }
