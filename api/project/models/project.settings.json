@@ -48,7 +48,8 @@
       "required": true
     },
     "demo": {
-      "type": "string"
+      "type": "string",
+      "required": false
     }
   }
 }
